@@ -1,0 +1,20 @@
+{
+  "name": "chat-websocket",
+  "version": "1.0.0",
+  "description": "This project is a real-time chat application built using WebSocket technology. It enables users to communicate instantly through text messages within a web-based interface. The chat application leverages WebSocket's bidirectional communication capabilities to facilitate low-latency and efficient message exchange between connected clients. Users can join chat rooms, send messages, view message history, and interact with other participants in real-time. The project incorporates server-side and client-side components to manage WebSocket connections, handle message routing, and maintain chat state. It showcases the power of WebSocket technology in building responsive and interactive web applications.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "author": "montyaction",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/montyaction/websocket-chat-app.git"
+  }
+}
