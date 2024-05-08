@@ -8,6 +8,8 @@ const io = require('socket.io')(server)
 
 app.use(express.static(path.join(__dirname, 'public')))
 
+app.use('/socket.io', express.static(__dirname + '/node_modules/socket.io/client-dist'))
+
 io.on('connection', (socket) => {
     console.log(socket.id)
 })
